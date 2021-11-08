@@ -35,7 +35,10 @@ function startBazarCarousel() {
         dots: false,
         margin: 5,
         touchDrag: true,
-        mouseDrag: true
+        mouseDrag: true,
+        autoplay:true,
+        autoplayTimeout:1500,
+        autoplayHoverPause:true
     })
 
     $('.carousel-next').click(function() {
