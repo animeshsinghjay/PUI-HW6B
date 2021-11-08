@@ -46,7 +46,7 @@ function startBazarCarousel() {
     });
 
     $(document).on("click", ".owl-item", function() {
-
+        window.location = "./product-dog-harness.html"; 
     });
 
 }
