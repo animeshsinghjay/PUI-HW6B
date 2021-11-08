@@ -109,7 +109,7 @@ function doSomething(button) {
     // do something with button
 	let find_del_id = "";
 	find_del_id = button.id;
-	find_del_id.slice(4);
+	find_del_id = find_del_id.slice(4);
 	arrayOfJSObj1.splice(parseInt(find_del_id),1);
 	updateCartNumber(arrayOfJSObj1.length);
 	localStorage.setItem('savedCart', JSON.stringify(arrayOfJSObj1));

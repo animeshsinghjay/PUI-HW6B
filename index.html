@@ -3,6 +3,9 @@
 
 <head>
     <link href="style.css" rel="stylesheet"> <!-- Linking CSS Stylesheet -->
+    <!-- <link href="./assets/vendors/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="./assets/vendors/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="./assets/vendors/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -154,122 +157,172 @@
                         Browse More>
                     </a>
                 </div>
-                <div class="r3_item i-4">
-                    <img src="./assets/images/home/left-chevron.png" alt="Cat Tracker" height="15%" width="60%">
+                <div class="r3_item i-4 carousel-prev" id="button_left">
+                    <img src="./assets/images/home/left-chevron.png" alt="Left" height="15%" width="60%">
                 </div>
-                <div class="r3_item i-5">
-                    <img src="./assets/images/home/right-chevron.png" alt="Cat Tracker" height="15%" width="60%">
+                <div class="r3_item i-5 carousel-next" id="button_right">
+                    <img src="./assets/images/home/right-chevron.png" alt="Right" height="15%" width="60%">
                 </div>
-                <div class="r3_item i-6">
-                    <div class="r3itemgrid b-l b-r">
-                        <div class="r3ig_item i-1 b-t">
-                            <img src="./assets/images/home/circle-puppy-harness.png" alt="Puppy Harness" height="85%" width="70%">
+                <div class="r3_item i_super" id="centre_carousel">
+                    <div class="loop owl-carousel carousel-home">
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-0"></div>
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-puppy-harness.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Harness
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $29.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
                         </div>
-                        <div class="r3ig_item i-2">
-                            Puppy Harness
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-kitten-feeder.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Kitten Feeder
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $11.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
                         </div>
-                        <div class="r3ig_item i-3">
-                            <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-dog-coat.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Dog Coat
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $17.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
                         </div>
-                        <div class="r3ig_item i-4">
-                            $29.99
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-dog-sippycup.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Dog Sippycup
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $22.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
                         </div>
-                        <div class="r3ig_item i-5 b-b b-t b-r">
-                            <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-cat-bottle.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Cat Bottle
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $33.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
                         </div>
-                        <div class="r3ig_item i-6 b-b b-t">
-                            <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-dog-sippycup.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Dog Sippycup
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $22.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="r3itemgrid b-l b-r">
+                                <div class="r3ig_item i-1 b-t">
+                                    <img src="./assets/images/home/circle-cat-bottle.png" alt="Puppy Harness" height="90%" width="70%">
+                                </div>
+                                <div class="r3ig_item i-2">
+                                    Cat Bottle
+                                </div>
+                                <div class="r3ig_item i-3">
+                                    <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
+                                </div>
+                                <div class="r3ig_item i-4">
+                                    $33.99
+                                </div>
+                                <div class="r3ig_item i-5 b-b b-t b-r">
+                                    <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
+                                </div>
+                                <div class="r3ig_item i-6 b-b b-t">
+                                    <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="r3_item i-7">
-                    <div class="r3itemgrid b-l b-r">
-                        <div class="r3ig_item i-1 b-t">
-                            <img src="./assets/images/home/circle-kitten-feeder.png" alt="Puppy Harness" height="85%" width="70%">
-                        </div>
-                        <div class="r3ig_item i-2">
-                            Kitten Feeder
-                        </div>
-                        <div class="r3ig_item i-3">
-                            <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
-                        </div>
-                        <div class="r3ig_item i-4">
-                            $11.99
-                        </div>
-                        <div class="r3ig_item i-5 b-b b-t b-r">
-                            <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
-                        </div>
-                        <div class="r3ig_item i-6 b-b b-t">
-                            <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
-                        </div>
-                    </div>
-                </div>
-                <div class="r3_item i-8">
-                    <div class="r3itemgrid b-l b-r">
-                        <div class="r3ig_item i-1 b-t">
-                            <img src="./assets/images/home/circle-dog-coat.png" alt="Puppy Harness" height="85%" width="70%">
-                        </div>
-                        <div class="r3ig_item i-2">
-                            Dog Coat
-                        </div>
-                        <div class="r3ig_item i-3">
-                            <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
-                        </div>
-                        <div class="r3ig_item i-4">
-                            $17.99
-                        </div>
-                        <div class="r3ig_item i-5 b-b b-t b-r">
-                            <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
-                        </div>
-                        <div class="r3ig_item i-6 b-b b-t">
-                            <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
-                        </div>
-                    </div>
-                </div>
-                <div class="r3_item i-9">
-                    <div class="r3itemgrid b-l b-r">
-                        <div class="r3ig_item i-1 b-t">
-                            <img src="./assets/images/home/circle-dog-sippycup.png" alt="Puppy Harness" height="85%" width="70%">
-                        </div>
-                        <div class="r3ig_item i-2">
-                            Dog Sippycup
-                        </div>
-                        <div class="r3ig_item i-3">
-                            <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
-                        </div>
-                        <div class="r3ig_item i-4">
-                            $22.99
-                        </div>
-                        <div class="r3ig_item i-5 b-b b-t b-r">
-                            <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
-                        </div>
-                        <div class="r3ig_item i-6 b-b b-t">
-                            <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
-                        </div>
-                    </div>
-                </div>
-                <div class="r3_item i-10">
-                    <div class="r3itemgrid b-l b-r">
-                        <div class="r3ig_item i-1 b-t">
-                            <img src="./assets/images/home/circle-cat-bottle.png" alt="Puppy Harness" height="85%" width="70%">
-                        </div>
-                        <div class="r3ig_item i-2">
-                            Cat Bottle
-                        </div>
-                        <div class="r3ig_item i-3">
-                            <img src="./assets/images/home/five-stars.png" alt="5/5" height="100%" width="55%">
-                        </div>
-                        <div class="r3ig_item i-4">
-                            $33.99
-                        </div>
-                        <div class="r3ig_item i-5 b-b b-t b-r">
-                            <img src="./assets/images/home/heart.png" alt="Fav" height="50%" width="25%">
-                        </div>
-                        <div class="r3ig_item i-6 b-b b-t">
-                            <img src="./assets/images/home/add-to-cart.png" alt="Cart" height="50%" width="25%">
-                        </div>
-                    </div>
-                </div>
+               
             </div>
         </div>
 
@@ -412,5 +465,7 @@
     </div>
     
 </body>
+<script src="./assets/vendors/jquery.js"></script>
+<script src="./assets/vendors/owlcarousel/owl.carousel.min.js"></script>
 <script src="main.js" type="text/javascript"></script> <!-- Linking JavaScript -->
 </html>
